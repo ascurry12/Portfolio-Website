@@ -16,10 +16,14 @@
 </head>
 
 <body>
-    <div class="page">
-        <div class="column"></div>
-            <div class="row">
-                <div class="col-sm-3">
+    <div id="page" class="container-sm mx-5">
+        <div class="container-fluid text-end">
+            <div><a class="btn btn-link" href=#contact>contact me</a></div> 
+            <!--will be a reference to contact page at bottom-->
+        </div>
+        <div class="container-sm mx-5">
+            <div class="row justify-content-center">
+                <div class="col-sm text-start">
                     <h1 class="display-1">asc[ii]</h1>
                     <h1 class="display-6">aniyah s. curry</h1>
                     <hr class="rounded">
@@ -28,55 +32,66 @@
                         lasting contributions to the world of technology. 
                     </p>
                 </div>
-                <div class="col-sm">
-                    <div><a class="btn btn-link" href=#contact>contact me</a></div> <!--will be a reference to contact page at bottom-->
-                    <img src="images/me.png" alt="me" width="100" height="100">
+                <div class="col-sm m-5 text-end">
+                    <img class="img-fluid" src="images/me.png" alt="me" style="width: 350px;">
                 </div>
             </div>
         </div>
-        <div class="projects">
-            <h2>projects+</h2>
-            <div class="horizontal-scroll items">
-                <div>item 1</div>
-                <div>item 2</div>
-                <div>item 3</div>
+        <div class="container-sm mx-5">
+            <div class="row justify-content-center">
+                <div class="col-sm text-start">
+                    <section id="projects">
+                        <h2>projects+</h2>
+                        <div class="horizontal-scroll items">
+                            <div>item 1</div>
+                            <div>item 2</div>
+                            <div>item 3</div>
+                        </div>
+                    </section>
+                    <section id="artwork">
+                        <h2>artwork+</h2>
+                        <div class="horizontal-scroll items">
+                            <div>item 1</div>
+                            <div>item 2</div>
+                            <div>item 3</div>
+                        </div>
+                    </section>
+                </div>
             </div>
         </div>
-        <div class="artwork">
-        <h2>artwork+</h2>
-            <div class="horizontal-scroll items">
-                <div>item 1</div>
-                <div>item 2</div>
-                <div>item 3</div>
-            </div>
-        </div>
-        <div class="footer" id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md">
-                        <a href="mailto:aniyahcurry12@gmail.com"><img src="images/github-mark.png" alt="email" width="35"></a>
-                        <a href="https://github.com/ascurry12" target="_blank"><img src="images/github-mark.png" alt="github" width="35"></a>
-                        <a href="https://www.linkedin.com/in/aniyahc/" target="_blank"><img src="images/LI-In-Bug.png" alt="linkedin" width="35"></a>
+        <section id="contact">
+            <div class="container-sm mx-5">
+                <div class="row justify-content-center">
+                    <div class="col-sm text-start">
+                        <a href="mailto:aniyahcurry12@gmail.com"><img src="images/icons8-email-35.png" alt="email" width="32"></a>
+                        <a href="https://github.com/ascurry12" target="_blank"><img src="images/github-mark.png" alt="github" width="32"></a>
+                        <a href="https://www.linkedin.com/in/aniyahc/" target="_blank"><img src="images/LI-In-Bug.png" alt="linkedin" width="32"></a>
                     </div>
-                    <div class="col-md">
+                    <div class="col-sm text-center">
                         <button class="btn btn-primary">click me for a song!</button>
-                        <p class="rand-song">Designer by NCT 127</p>
-                        <a href=""><img src="#" alt="play" width="15"></a>
                     </div>
-                    <div class="col-md">
-
+                    <div class="col-sm text-end">
+                        <p class="rand-song">Designer by NCT 127</p>
+                        <a href="#"><img src="images/play-button-arrowhead.png" alt="play" width="15"></a>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 
 <footer>
-    <a href="">Attributions</a>
-    <p class="copyright-text">© Copyright 2023 Aniyah Curry </p>
+    <div class="container-sm mx-5">
+        <div class="row justify-content-center">
+            <div class="col-sm text-start">
+                <a href="#">Attributions</a>
+                <p class="copyright-text">© Copyright 2023 Aniyah Curry </p>
+            </div>
+        </div>
+    </div>
+    
 </footer>
 
 <!-- Our codes -->
